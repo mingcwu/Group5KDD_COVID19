@@ -107,5 +107,7 @@ Our dataset had many missing values so we used imputation techniques such as mea
 
 The outcome of the first trial in the Linear Regression was 4% of R-squared and outcome of the last model was an accuracy of 61%. This is a good starting point to predicting COVID-19 severity of low, medium or high in nursing homes. This can definitely improve in future work and as we learn more about this virus.
 A future work to improve the results is to collect newer data as the testing capacity is increasing in the United States and the CDC is setting better standard operating procedures to collect and report data. At the beginning of this pandemic, both testing capacity and the lack of standardization in data collection have caused the dataset to be inaccurate which can cause any predictive model to be inaccurate as a result of that.
+
+A future work to improve the results is to collect newer data as the testing capacity is increasing in the United States and the CDC is setting better standard operating procedures to collect and report data. At the beginning of this pandemic, both testing capacity and the lack of standardization in data collection have caused the dataset to be inaccurate which can cause any predictive model to be inaccurate as a result of that.
  
 
