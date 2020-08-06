@@ -87,12 +87,16 @@ We are dealing with a supervised learning model as our nursing home dataset cont
 
 Since the number of COVID-19 cases can be highly influenced by the number of residents or number of beds in the facility, we chose to create a new variable; CovidtoOccupancyRatio. This ratio has been calculated by dividing the number of resident confirmed cases by the total number of occupied beds.
 <img src="img/model1.png" />
+
 By setting this as a target variable, we are looking to predict a numerical variable which is the total number of resident cases in the particular week (CovidtoOccupancyRatio). We took a subset of the dataset that was mainly focused on the shortages of Personal Protective Equipment (PPE’s) as independent variables to predict the number of resident confirmed cases. A linear regression model was used but unfortunately, a lot of noise in the data made this target variable very difficult to predict and an R-squared of only 4% was achieved. With these results, we moved to another choice which is creating another target variable which takes the ratio of staff and residents confirmed with COVID-19 to the total number of available beds.
 <img src="img/model2.png" />
+
 From there, we examined this variable for outliers and removed them. To avoid dealing with numerical target variables, we chose to discretize this new target variable to Low, Medium and High. We started with random bins and ran a random forest model that achieved only 47% accuracy. To improve the results, we plotted a histogram of the target variable to help us choose the right cut off points for the bins and got the following results:
 <img src="img/model3.png" />
+
 With this histogram, it became easier for us to determine the cut off points for Low, Medium and High. We chose cut bins 0, 0.1, 0.4 and 1. The corresponding classes were saved in a new target variable; ConfirmedCases. The output shows a slightly unbalanced count for each class but it is nothing that should skew the model interpretation.
 <img src="img/model4.png" />
+
 Once the new target variable was cleaned and preprocessed, we trained Random Forest and Decision Tree models. 
 
 ### Evaluation
