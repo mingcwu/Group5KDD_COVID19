@@ -18,9 +18,9 @@ Our main goal is to explore the data and predict the total confirmed ratio of CO
 What is the total confirmed ratio of COVID-19 cases amongst residents and staff of US nursing homes to the total number of beds considering the shortages in essential staff and Personal Protective Equipment (PPE’s)?
 
 ## Relevant Domain Information
-(https://www.theverge.com/2020/3/5/21166088/coronavirus-COVID-19-protection-doctors-nurses-health-workers-risk) 
+[https://www.theverge.com/2020/3/5/21166088/coronavirus-COVID-19-protection-doctors-nurses-health-workers-risk] 
 [https://www.latimes.com/california/story/2020-04-10/coronavirus-covid19-hospital-nonclinical-staffers-fear] 
-[https://www.msn.com/en-us/health/medical/doctors-nurses-at-high-risk-of-coronavirus-as-the-front-lines-of-medical-care/ar-BB10PElE]
+https://www.msn.com/en-us/health/medical/doctors-nurses-at-high-risk-of-coronavirus-as-the-front-lines-of-medical-care/ar-BB10PElE
 
 ## Data and Source Description
 [https://data.cms.gov/Special-Programs-Initiatives-COVID-19-Nursing-Home/COVID-19-Nursing-Home-Dataset/s2uc-8wxp]
