@@ -1,10 +1,10 @@
 # Group5_KDD_Project_COVID19
 
 ## Team Members
-Osama Almasri
-Sabda Karkera
-Rishitha Muddana
-Raga Preethi Potu
+Osama Almasri; 
+Sabda Karkera 
+Rishitha Muddana 
+Raga Preethi Potu 
 Ming Wu
 
 ## Project Introduction
