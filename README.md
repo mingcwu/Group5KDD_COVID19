@@ -57,11 +57,11 @@ Data preparation is one of the most important steps where the data is collected 
 
 We used box plot visualization to analyze some of the columns and detected the outliers present in them. After they have been detected, they can be removed using other techniques such as histogram, IQR, Z-Score and scatter plots. Finding the relationship between the variables and treating them accordingly in the pre-processing steps is also considered to be an important factor during the process of modeling. To find the relationship or correlation between the attributes in the dataset, we have used correlation matrix. Certain attributes pairs such as:
 
-Residents Weekly Admissions COVID-19 and Residents weekly COVID-19 deaths<br/>
-Residents Total Admissions COVID-19 and Residents Total COVID-19 deaths<br/>
-Residents Weekly all Deaths and Residents Weekly COVID-19 deaths<br/>
-Residents Weekly confirmed and Staff weekly confirmed COVID-19<br/>
-Residents Total COVID-19 deaths (Vs) Staff Total confirmed COVID-19<br/>
+- Residents Weekly Admissions COVID-19 and Residents weekly COVID-19 deaths<br/>
+- Residents Total Admissions COVID-19 and Residents Total COVID-19 deaths<br/>
+- Residents Weekly all Deaths and Residents Weekly COVID-19 deaths<br/>
+- Residents Weekly confirmed and Staff weekly confirmed COVID-19<br/>
+- Residents Total COVID-19 deaths (Vs) Staff Total confirmed COVID-19<br/>
 
 Staff weekly confirmed COVID-19 (Vs) Residents total COVID-19 deaths have shown a correlation value between 0.5 to 0.7, which is considered to be appropriate.
 The dataset also contains many categorical attributes and there are some libraries that do not take categorical variables as input. Thus, we convert them into numerical variables. Therefore, in our dataset we used dummy encoding by converting a categorical input variable into a continuous variable or a binary variable. Presence of a level is represented by 1 and absence is represented by 0. Some of the other important things that can also be done to the data before we model it are:
